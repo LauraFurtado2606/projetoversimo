@@ -1,0 +1,174 @@
+body {
+    font-family: 'Montserrat';font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-color: #661465;
+    padding: 10px;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li {
+    margin: 0 10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.img {
+    max-height: 40px;
+}
+
+.foto {
+    height: 50vh;
+    background-image: url("img/backgraund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista-menu-item {
+    color: white;
+}
+
+.lista-menu {
+    justify-content: space-around;
+}
+.em-alta {
+    background: #661465;
+    border-radius: 35px;
+    color: white;
+    font-size: 32px;
+   
+    text-align: center;
+    width: 463px;
+
+} 
+footer{
+    background-color: #661465;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.logo-menu-baixo{
+    height: 75px;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+
+
+.Popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#661465;
+    font-family: 'Montserrat';
+}
+
+.titulo {
+    text-align: center;
+    color: #E4CCFF;
+}
+
+.desconto {
+    margin: 100px;
+    color: #E4CCFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.inputemail {
+    display: flex;
+    width: 470px;
+    height: 35px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #E4CCFF;
+}
+
+.ofertas {
+    margin: 20px;
+    color: #E4CCFF;
+    font-size: 16px;
+}
+
+.final {
+    display: inline-flex;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #E4CCFF;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+}
+.popup-caixa {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -500px;
+    background: rgba(0, 0, 0, 0.5);
+    background-color: #661465;
+    font-family: 'Montserrat';
+}
+
+.popup-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #661465;
+    font-family: 'Montserrat';
+}
+
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}

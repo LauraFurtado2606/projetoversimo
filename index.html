@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>versímo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <ul class="lista-menu">
+            <li>
+                <a href="" class="lista-menu-item">
+                    Quem somos
+                </a>
+            </li>
+
+
+            <li>
+                <a href="" class="lista-menu-item">
+                    Promoções
+                </a>
+            </li>
+
+
+            <li>
+                <a href="" class="lista-menu-item">
+                    <img class="img" src="img/logoBranca.png" alt="Logo">
+                </a>
+            </li>
+
+
+            <li>
+                <a href="" class="lista-menu-item">
+                    Loja Virtual
+                </a>
+            </li>
+
+
+            <li>
+                <a href="" class="lista-menu-item">
+                    Fale Conosco
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="foto">
+
+    </div>
+    <div class="em-alta">
+        <p>NOSSOS LIVROS EM ALTA</p>
+    </div>
+    <div class="fotos">
+
+        <img src="img/Rectangle 3852.png" alt="">
+        <img src="img/Rectangle 3853.png" alt="">
+        <img src="img/Rectangle 3854.png" alt="">
+        <img src="img/Rectangle 3855.png" alt="">
+        <img src="img/Rectangle 7.png" alt="">
+        <img src="img/shopping.webp" alt="">
+    </div>
+   
+    <footer class="menu-baixo">
+        <img class="logo-menu-baixo" src="img/logoBranca.png" alt="Logo">
+        <p>
+            Copyright © 2023 Versimo
+        </p>
+    </footer>
+    <div class="popup-caixa" id="popup" onclick="fecharPopup()">
+        <div class="popup-conteudo" onclick="event.stopPropagation();">
+            <span class="fechar" onclick="fecharPopup()">&times;</span>
+                <div class="Popup">
+                    <h1 class="titulo">PARABÉNS!!</h1>
+                    <h2 class="desconto"> VOCÊ GANHOU 10% DE DESCONTO! </h2>
+                    <input type="text" class="inputemail" placeholder="Email:">
+                    <label class="ofertas">
+                        <input type="checkbox" id="receberEmails" name="receberEmails" value="sim">
+                        Aceito receber ofertas nesse email
+                    </label>
+                    <button class="final">
+                        USAR AGORA
+                    </button>
+
+
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        setTimeout(function () {
+            abrirPopup();
+        }, 5000);
+
+        setTimeout(function () {
+            fecharPopup();
+        }, 10000);
+
+        function abrirPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+
+        function fecharPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
